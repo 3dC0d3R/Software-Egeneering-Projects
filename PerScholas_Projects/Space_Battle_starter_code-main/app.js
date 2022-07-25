@@ -43,6 +43,7 @@ playerName.textContent = ussHelloWorld.name
 pHull.textContent = 'Hull: ' + ussHelloWorld.hull
 pFP.textContent = 'FirePower: ' + ussHelloWorld.firePower
 pAcc.textContent = 'Accuracy: ' + ussHelloWorld.accuracy
+   
     //Alien ship info
 alienName.textContent = alienShip.name
 eHull.textContent = 'Hull: ' + alienShip.hull
@@ -50,8 +51,12 @@ eFP.textContent = 'FirePower: ' + alienShip.firePower
 eAcc.textContent = 'Accuracy: ' + alienShip.accuracy
 
 //----------------> Battle Mode
+while(startGame == true)
+
+
+
 if (Math.random() < alien[0].accuracy) {
     console.log('You have been hit!');
 }
 
-//----------------> Just needed more time..... 
+//----------------> 
